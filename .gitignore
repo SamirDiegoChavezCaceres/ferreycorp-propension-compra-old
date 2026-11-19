@@ -1,0 +1,26 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Terraform (infra/)
+infra/.terraform/
+infra/terraform.tfstate*
+infra/*.tfplan
+
+# serving/ build artifacts and local debug output - not source, regenerate
+# with train_export.py / docker run as needed. Any service-account key file
+# would also be a secret - never commit one.
+serving/model.pkl
+serving/example_body.json
+serving/*.log
+serving/*-key.json
+serving/__pycache__/
+
+# duplicate of Dataset/ (already extracted) and the original brief email PDF -
+# not deliverables, just source material already in Dataset/
+Dataset-*.zip
+Prueba*.pdf
+todo.md

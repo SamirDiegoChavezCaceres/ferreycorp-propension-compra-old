@@ -1,0 +1,64 @@
+{
+  "feature_cols": [
+    "genero",
+    "estado_civil",
+    "nivel_educacion",
+    "ocupacion",
+    "segmento",
+    "edad",
+    "ingreso_anual",
+    "n_visita",
+    "dias_desde_ultima_visita",
+    "tasa_compra_historica",
+    "precio_min",
+    "precio_max",
+    "precio_promedio",
+    "gap_precio_vs_min",
+    "alguna_promo_activa",
+    "promo_ultima_marca",
+    "tiene_historial_marca"
+  ],
+  "cat_cols": [
+    "genero",
+    "estado_civil",
+    "nivel_educacion",
+    "ocupacion",
+    "segmento"
+  ],
+  "num_cols": [
+    "edad",
+    "ingreso_anual",
+    "n_visita",
+    "dias_desde_ultima_visita",
+    "tasa_compra_historica",
+    "precio_min",
+    "precio_max",
+    "precio_promedio",
+    "gap_precio_vs_min"
+  ],
+  "bin_cols": [
+    "alguna_promo_activa",
+    "promo_ultima_marca",
+    "tiene_historial_marca"
+  ],
+  "n_segmentos": 4,
+  "example": {
+    "genero": "0",
+    "estado_civil": "0",
+    "nivel_educacion": "1",
+    "ocupacion": "1",
+    "segmento": "1",
+    "edad": 36.0,
+    "ingreso_anual": 117971.0,
+    "n_visita": 59.0,
+    "dias_desde_ultima_visita": 6.0,
+    "tasa_compra_historica": 0.17,
+    "precio_min": 1.39,
+    "precio_max": 2.67,
+    "precio_promedio": 2.0,
+    "gap_precio_vs_min": 0.0,
+    "alguna_promo_activa": 1,
+    "promo_ultima_marca": 0,
+    "tiene_historial_marca": 0
+  }
+}
